@@ -94,7 +94,7 @@ I manually read the fragments and assembled them in order to get the original fl
 picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
 ```
 
-I completed the CTF:
+And completed the CTF:
 
 ![Completion Screenshot](Screenshots/CTF_Completion.png)
 
@@ -108,6 +108,7 @@ Overall, this challenge helped me strengthen my command-line skills and understa
 
 
 ---
+
 
 
 
