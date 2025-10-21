@@ -32,7 +32,7 @@ I used `wget` inside the picoCTF webshell to download the challenge file:
 wget https://challenge-files.picoctf.net/c_saffron_estate/cbaf5310acc7fcfe879881106e90b1a3de92a961934567f7543bcd96c4aef977/server.log
 ````
 
-![(1) wget log file Screenshot](Screenshots/(1) wget log file.png) 
+![wget log file Screenshot](Screenshots/(1) wget log file.png) 
 
 ---
 
@@ -44,7 +44,7 @@ I listed files to confirm `server.log` was downloaded:
 ls
 ```
 
-![ls Screenshot](Screenshots/(2) ls) 
+![ls Screenshot](Screenshots/(2) ls.png) 
 
 ---
 
@@ -56,9 +56,9 @@ I viewed the file contents to understand its structure:
 cat server.log
 ```
 
-![cat log file Screenshot](Screenshots/(3) cat log file)
+![cat log file Screenshot](Screenshots/(3) cat log file.png)
 
-![logs Screenshot](Screenshots/(4) logs )
+![logs Screenshot](Screenshots/(4) logs.png )
 
 ---
 
@@ -70,11 +70,11 @@ I first searched for lines that contained the word **INFO** to see if I could ge
 cat server.log | grep INFO
 ```
 
-![grep info logs Screenshot](Screenshots/(5) grep info logs)
+![grep info logs Screenshot](Screenshots/(5) grep info logs.png)
 
 I found a line with `FLAGPART` that seemed to hint at the flag content.
 
-![Flag part clue Screenshot](Screenshots/(6) Flagpart Clue)
+![Flag part clue Screenshot](Screenshots/(6) Flagpart Clue.png)
 
 Then I searched directly for the lines that contained the word **FLAGPART**:
 
@@ -82,7 +82,7 @@ Then I searched directly for the lines that contained the word **FLAGPART**:
 cat server.log | grep FLAGPART
 ```
 
-![grep flag part Screenshot](Screenshots/(7) grep flagpart)
+![grep flag part Screenshot](Screenshots/(7) grep flagpart.png)
 
 ---
 
@@ -104,9 +104,10 @@ Doing this CTF was a fun and simple way to practice using Linux commands to sear
 
 Overall, this challenge helped me strengthen my command-line skills and understand how to analyze log files efficiently. It was satisfying to piece together the scattered flag and see how each step led to the final answer.
 
-![Completion Screenshot](Screenshots/CTF Completion)
+![Completion Screenshot](Screenshots/CTF Completion.png)
 
 ---
+
 
 
 
