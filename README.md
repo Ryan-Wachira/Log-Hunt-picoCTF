@@ -107,7 +107,7 @@ Doing this CTF was a fun and simple way to practice using Linux commands to sear
 Overall, this challenge helped me strengthen my command-line skills and understand how to analyze log files efficiently. It was satisfying to piece together the scattered flag and see how each step led to the final answer.
 
 
----
+
 
 
 
