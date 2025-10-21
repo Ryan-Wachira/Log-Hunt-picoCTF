@@ -32,7 +32,7 @@ I used `wget` inside the picoCTF webshell to download the challenge file:
 wget https://challenge-files.picoctf.net/c_saffron_estate/cbaf5310acc7fcfe879881106e90b1a3de92a961934567f7543bcd96c4aef977/server.log
 ````
 
-![wget log file Screenshot](Screenshots/(1) wget log file.PNG) 
+![wget log file Screenshot](Screenshots/(1)wget log file.png) 
 
 ---
 
@@ -107,6 +107,7 @@ Overall, this challenge helped me strengthen my command-line skills and understa
 ![Completion Screenshot](Screenshots/CTF Completion)
 
 ---
+
 
 
 
