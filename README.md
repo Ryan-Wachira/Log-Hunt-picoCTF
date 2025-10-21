@@ -1,4 +1,4 @@
-# Log Hunt — picoCTF (Writeup)
+# Log Hunt (Writeup)
 
 **Platform:** picoCTF  
 **Challenge Author:** Yahaya Meddy  
@@ -74,7 +74,7 @@ cat server.log | grep INFO
 
 I found a line with `FLAGPART` that seemed to hint at the flag content.
 
-![Flag part clue Screenshot](Screenshots/Flagpart_Clue.png)
+![Flag part clue Screenshot](Screenshots/flagpart_clue.png)
 
 Then I searched directly for the lines that contained the word **FLAGPART**:
 
@@ -96,7 +96,11 @@ picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
 
 ---
 
+I was able to solve the CTF:
 
+![Completion Screenshot](Screenshots/CTF_Completion.png)
+
+---
 
 ## Conclusion and Summary
 
@@ -107,6 +111,7 @@ Overall, this challenge helped me strengthen my command-line skills and understa
 ![Completion Screenshot](Screenshots/CTF_Completion.png)
 
 ---
+
 
 
 
