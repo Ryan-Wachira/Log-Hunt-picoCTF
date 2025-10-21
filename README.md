@@ -94,9 +94,7 @@ I manually read the fragments and assembled them in order to get the original fl
 picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
 ```
 
----
-
-I was able to solve the CTF:
+I completed the CTF:
 
 ![Completion Screenshot](Screenshots/CTF_Completion.png)
 
@@ -108,9 +106,9 @@ Doing this CTF was a fun and simple way to practice using Linux commands to sear
 
 Overall, this challenge helped me strengthen my command-line skills and understand how to analyze log files efficiently. It was satisfying to piece together the scattered flag and see how each step led to the final answer.
 
-![Completion Screenshot](Screenshots/CTF_Completion.png)
 
 ---
+
 
 
 
