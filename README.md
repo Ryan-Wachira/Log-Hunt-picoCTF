@@ -56,7 +56,7 @@ I viewed the file contents to understand its structure:
 cat server.log
 ```
 
-![cat log file Screenshot](Screenshots/cat_log_file)
+![cat log file Screenshot](Screenshots/cat_log_file.png)
 
 ![logs Screenshot](Screenshots/logs.png)
 
@@ -105,6 +105,7 @@ And completed the CTF:
 Doing this CTF was a fun and simple way to practice using Linux commands to search through logs. At first, the log file looked confusing, but by filtering out specific lines using `grep`, I was able to spot the hidden flag parts. I learned how useful `grep` can be when analyzing large files or logs, especially for finding keywords quickly.
 
 Overall, this challenge helped me strengthen my command-line skills and understand how to analyze log files efficiently. It was satisfying to piece together the scattered flag and see how each step led to the final answer.
+
 
 
 
