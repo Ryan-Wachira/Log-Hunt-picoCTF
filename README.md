@@ -26,7 +26,7 @@ picoCTF{us3_y0urlinux_sk1lls_cedfa5fb}
 
 ## What I Did Step-by-Step  
 
-### 1️⃣ Download the log file  
+### Step 1: Download the log file  
 I used `wget` inside the picoCTF webshell to download the challenge file:  
 ```bash
 wget https://challenge-files.picoctf.net/c_saffron_estate/cbaf5310acc7fcfe879881106e90b1a3de92a961934567f7543bcd96c4aef977/server.log
@@ -36,7 +36,7 @@ wget https://challenge-files.picoctf.net/c_saffron_estate/cbaf5310acc7fcfe879881
 
 ---
 
-### 2️⃣ Confirm the file is present
+### Step 2: Confirm the file is present
 
 I listed files to confirm `server.log` was downloaded:
 
@@ -48,7 +48,7 @@ ls
 
 ---
 
-### 3️⃣ Inspect the log
+### Step 3: Inspect the log
 
 I viewed the file contents to understand its structure:
 
@@ -62,7 +62,7 @@ cat server.log
 
 ---
 
-### 4️⃣ Search for relevant lines
+### Step 4: Search for relevant lines
 
 I first searched for lines that contained the word **INFO** to see if I could get a clue:
 
@@ -86,7 +86,7 @@ cat server.log | grep FLAGPART
 
 ---
 
-### 5️⃣ Reconstruct the flag
+### Step 5: Reconstruct the flag
 
 I manually read the fragments and assembled them in order to get the original flag:
 
@@ -105,6 +105,7 @@ And completed the CTF:
 Doing this CTF was a fun and simple way to practice using Linux commands to search through logs. At first, the log file looked confusing, but by filtering out specific lines using `grep`, I was able to spot the hidden flag parts. I learned how useful `grep` can be when analyzing large files or logs, especially for finding keywords quickly.
 
 Overall, this challenge helped me strengthen my command-line skills and understand how to analyze log files efficiently. It was satisfying to piece together the scattered flag and see how each step led to the final answer.
+
 
 
 
